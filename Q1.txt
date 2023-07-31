@@ -1,0 +1,20 @@
+<html>
+<head>
+<title></title>
+
+<script>
+function x() 
+{
+  document.write("Area is: " + Area);
+}
+</script>
+</head>
+
+<body>
+<script>
+var r = parseFloat(window.prompt("Enter radius: "));
+var Area = Math.PI * r * r
+x();
+</script>
+</body>
+</html>
